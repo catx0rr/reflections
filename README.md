@@ -1,6 +1,6 @@
 # reflections v1.1.0
 
-A reflective memory consolidator. Behaviorally equivalent to [Reflections](https://github.com/catx0rr/reflections) within the reference rubrics, profile thresholds, and verification suite — implemented entirely in prompt logic, with no Python scripts. Adds Zero's durability filter and 5-route system on top of the original Auto-Dream scoring family.
+A reflective memory consolidator. Behaviorally equivalent to [Hybrid Reflections](https://github.com/catx0rr/reflections-hybrid) within the reference rubrics, profile thresholds, and verification suite — implemented entirely in prompt logic, with no Python scripts. Adds Zero's durability filter and 5-route system on top of the original Auto-Dream scoring family.
 
 LLM judgment introduces per-cycle variance the verification suite scopes; this fork is contract-equivalent to Reflections, not numerically identical at the per-cycle level.
 
@@ -177,7 +177,7 @@ Tell your agent to read `INSTALL.md`:
 
 ## Credits
 
-> **Origin:** This is a fork of [Reflections](https://github.com/catx0rr/reflections), itself a fork of [LeoYeAI/openclaw-auto-dream](https://github.com/LeoYeAI/openclaw-auto-dream). The control plane is implemented in prompt logic — no Python scripts.
+> **Origin:** This is a fork of [Hybrid Reflections](https://github.com/catx0rr/reflections-hybrid), itself a fork of [LeoYeAI/openclaw-auto-dream](https://github.com/LeoYeAI/openclaw-auto-dream). The control plane is implemented in prompt logic — no Python scripts.
 >
 > Reflections preserves the same long-horizon role as Auto-Dream and uses memory-core-safe surfaces (RTMEMORY.md, not MEMORY.md). reflections is behaviorally equivalent to Reflections within the reference rubrics, profile thresholds, and verification suite — but moves the entire control plane from Python scripts to prompt logic.
 >
